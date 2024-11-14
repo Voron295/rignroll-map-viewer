@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Geometry">
+      <UniqueIdentifier>{b371b688-789c-47a0-8af2-f8547a75d54d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Game Formats">
+      <UniqueIdentifier>{1d4c6dad-abe6-4391-a8f1-59697f88fef9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Game Formats\3D Blocks">
+      <UniqueIdentifier>{2081e82c-3f83-4386-9dc9-78c6f41be86a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Game Formats\Resources">
+      <UniqueIdentifier>{5378455e-76c2-44bb-9311-9b96b8b2ccd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Geometry">
+      <UniqueIdentifier>{dfdbf217-5d83-458e-a95f-1e3e6c25fea2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Game Formats">
+      <UniqueIdentifier>{5f460536-5e7a-479a-a985-48017d854303}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Game Formats\3D Blocks">
+      <UniqueIdentifier>{601d916b-20bc-404e-9625-e44426be2d26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Game Formats\Resources">
+      <UniqueIdentifier>{5d123521-c85d-4be3-acba-af79c5454726}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraManager.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="CMatrix.cpp">
+      <Filter>Файлы исходного кода\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="GameModule.cpp">
+      <Filter>Файлы исходного кода\Game Formats</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>Файлы исходного кода\Game Formats\3D Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="CBlockObserver.cpp">
+      <Filter>Файлы исходного кода\Game Formats\3D Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="CBlockContainer0x2.cpp">
+      <Filter>Файлы исходного кода\Game Formats\3D Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="CSimpleBlock.cpp">
+      <Filter>Файлы исходного кода\Game Formats\3D Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="CBlockContainer.cpp">
+      <Filter>Файлы исходного кода\Game Formats\3D Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="CBlockContainer0x3.cpp">
+      <Filter>Файлы исходного кода\Game Formats\3D Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="CBlockContainerStatic.cpp">
+      <Filter>Файлы исходного кода\Game Formats\3D Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="CBlockContainerEnv.cpp">
+      <Filter>Файлы исходного кода\Game Formats\3D Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="CBlockContainer0x5.cpp">
+      <Filter>Файлы исходного кода\Game Formats\3D Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="CBlockContainer0x6.cpp">
+      <Filter>Файлы исходного кода\Game Formats\3D Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="CBlockContainer0x7.cpp">
+      <Filter>Файлы исходного кода\Game Formats\3D Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="CBlockModelElement.cpp">
+      <Filter>Файлы исходного кода\Game Formats\3D Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="CFace.cpp">
+      <Filter>Файлы исходного кода\Game Formats\3D Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="CBlockContainerLOD.cpp">
+      <Filter>Файлы исходного кода\Game Formats\3D Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="CBlock0xD.cpp">
+      <Filter>Файлы исходного кода\Game Formats\3D Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="CBlockAnmObj.cpp">
+      <Filter>Файлы исходного кода\Game Formats\3D Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="CBlockRoom.cpp">
+      <Filter>Файлы исходного кода\Game Formats\3D Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="CBlockRef.cpp">
+      <Filter>Файлы исходного кода\Game Formats\3D Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="CBlockSpace.cpp">
+      <Filter>Файлы исходного кода\Game Formats\3D Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="CBlock0x19.cpp">
+      <Filter>Файлы исходного кода\Game Formats\3D Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="CBlockContainer0x1A.cpp">
+      <Filter>Файлы исходного кода\Game Formats\3D Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="CVector.cpp">
+      <Filter>Файлы исходного кода\Game Formats\3D Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="CBlockSprite.cpp">
+      <Filter>Файлы исходного кода\Game Formats\3D Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="CBlock0x1C.cpp">
+      <Filter>Файлы исходного кода\Game Formats\3D Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="CBlockContainer0x1D.cpp">
+      <Filter>Файлы исходного кода\Game Formats\3D Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="CBlock0x1F.cpp">
+      <Filter>Файлы исходного кода\Game Formats\3D Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="LightData.cpp">
+      <Filter>Файлы исходного кода\Game Formats\3D Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="CBlockContainerLamp.cpp">
+      <Filter>Файлы исходного кода\Game Formats\3D Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="CBlockCollision.cpp">
+      <Filter>Файлы исходного кода\Game Formats\3D Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="CBlockGenerator.cpp">
+      <Filter>Файлы исходного кода\Game Formats\3D Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsFuncs.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>Файлы исходного кода\Game Formats\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Mask.cpp">
+      <Filter>Файлы исходного кода\Game Formats\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="RGB.cpp">
+      <Filter>Файлы исходного кода\Game Formats\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Файлы исходного кода\Game Formats\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Файлы исходного кода\Game Formats\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Palette.cpp">
+      <Filter>Файлы исходного кода\Game Formats\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Файлы исходного кода\Game Formats\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="CBlockRoomDesc.cpp">
+      <Filter>Файлы исходного кода\Game Formats\3D Blocks</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CBlock0x1C.h">
+      <Filter>Заголовочные файлы\Game Formats\3D Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="CBlock0x1F.h">
+      <Filter>Заголовочные файлы\Game Formats\3D Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="CBlock0x28.h">
+      <Filter>Заголовочные файлы\Game Formats\3D Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="CBlock0xD.h">
+      <Filter>Заголовочные файлы\Game Formats\3D Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="CBlockContainer.h">
+      <Filter>Заголовочные файлы\Game Formats\3D Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="CBlockContainer0x2.h">
+      <Filter>Заголовочные файлы\Game Formats\3D Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="CBlockContainer0x3.h">
+      <Filter>Заголовочные файлы\Game Formats\3D Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="CBlockContainer0x5.h">
+      <Filter>Заголовочные файлы\Game Formats\3D Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="CBlockContainer0x6.h">
+      <Filter>Заголовочные файлы\Game Formats\3D Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="CBlockContainer0x7.h">
+      <Filter>Заголовочные файлы\Game Formats\3D Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="CBlockContainerEnv.h">
+      <Filter>Заголовочные файлы\Game Formats\3D Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="CBlockContainerLamp.h">
+      <Filter>Заголовочные файлы\Game Formats\3D Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="CBlockContainerStatic.h">
+      <Filter>Заголовочные файлы\Game Formats\3D Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="CBlockGenerator.h">
+      <Filter>Заголовочные файлы\Game Formats\3D Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="CBlockModelElement.h">
+      <Filter>Заголовочные файлы\Game Formats\3D Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="CBlockRoom.h">
+      <Filter>Заголовочные файлы\Game Formats\3D Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="CBlockSpace.h">
+      <Filter>Заголовочные файлы\Game Formats\3D Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="CSimpleBlock.h">
+      <Filter>Заголовочные файлы\Game Formats\3D Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="CFace.h">
+      <Filter>Заголовочные файлы\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="CVector.h">
+      <Filter>Заголовочные файлы\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="CVector4.h">
+      <Filter>Заголовочные файлы\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="CVertex.h">
+      <Filter>Заголовочные файлы\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="CMatrix.h">
+      <Filter>Заголовочные файлы\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Заголовочные файлы\Game Formats\3D Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="GameModule.h">
+      <Filter>Заголовочные файлы\Game Formats</Filter>
+    </ClInclude>
+    <ClInclude Include="Mask.h">
+      <Filter>Заголовочные файлы\Game Formats\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Заголовочные файлы\Game Formats\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Ovl.h">
+      <Filter>Заголовочные файлы\Game Formats\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Заголовочные файлы\Game Formats\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Заголовочные файлы\Game Formats\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraManager.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="CBlockObserver.h">
+      <Filter>Заголовочные файлы\Game Formats\3D Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Заголовочные файлы\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="CBlockContainerLOD.h">
+      <Filter>Заголовочные файлы\Game Formats\3D Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="CBlockAnmObj.h">
+      <Filter>Заголовочные файлы\Game Formats\3D Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="CBlockRef.h">
+      <Filter>Заголовочные файлы\Game Formats\3D Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="CBlock0x19.h">
+      <Filter>Заголовочные файлы\Game Formats\3D Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="CBlockContainer0x1A.h">
+      <Filter>Заголовочные файлы\Game Formats\3D Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="CBlockSprite.h">
+      <Filter>Заголовочные файлы\Game Formats\3D Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="CBlockContainer0x1D.h">
+      <Filter>Заголовочные файлы\Game Formats\3D Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="LightData.h">
+      <Filter>Заголовочные файлы\Game Formats\3D Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="CBlockCollision.h">
+      <Filter>Заголовочные файлы\Game Formats\3D Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsFuncs.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Заголовочные файлы\Game Formats\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>Заголовочные файлы\Game Formats\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="RGB.h">
+      <Filter>Заголовочные файлы\Game Formats\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Palette.h">
+      <Filter>Заголовочные файлы\Game Formats\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="CBlockRoomDesc.h">
+      <Filter>Заголовочные файлы\Game Formats\3D Blocks</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

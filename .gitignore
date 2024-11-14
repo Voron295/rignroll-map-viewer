@@ -1,0 +1,8 @@
+Debug/
+Release/
+ipch/
+*.vcxproj.user
+*.db
+*.sdf
+*.vs
+*.suo

@@ -1,0 +1,6 @@
+
+class Color
+{
+public:
+
+};
